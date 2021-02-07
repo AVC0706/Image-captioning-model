@@ -3,7 +3,6 @@ import torch.nn as nn
 import statistics
 import torchvision.models as models
 
-print("model file")
 class EncoderCNN(nn.Module):
     def __init__(self, embed_size, train_CNN=False):
         super(EncoderCNN, self).__init__()
